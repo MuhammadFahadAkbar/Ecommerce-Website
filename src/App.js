@@ -1,4 +1,5 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Topbar from './components/topbar';
 import Navbar from './components/navbar';
 import Home from './pages/Home';
 // import Shop from './pages/Shop';
@@ -12,6 +13,7 @@ import Home from './pages/Home';
 const App = () => {
   return (
     <BrowserRouter>
+    <Topbar/>
     <Navbar/>
     <Routes>
     <Route exact path="/" Component={Home} />

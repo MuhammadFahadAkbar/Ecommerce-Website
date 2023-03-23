@@ -1,53 +1,62 @@
 import { Link } from "react-router-dom";
-import Profile from "../images/profile.svg";
-import CartIcon from "../images/cart.svg";
+import SearchIcon from "../images/search.svg";
 
 const Navbar = () => {
   return (
-    <div className="w-full py-8 px-12 flex justify-between items-center border-b border-b-green-800 hover:transition-all">
-      <div>
-        {/* <img src="logo.png" alt="logo"/> */}
-        <Link to="/" className="text-2xl font-bold">
-          Ecommerce Store
-        </Link>
-      </div>
-      <div className="flex">
-        <Link
-          to="/shop"
-          className="px-4 py-0 mx-2 hover:border-b-2 hover:border-b-green-700 hover:text-green-700 text-lg"
-        >
-          Shop
-        </Link>
-        <Link
-          to="/category"
-          className="px-4 py-0 mx-2 hover:border-b-2 hover:border-b-green-700 hover:text-green-700 text-lg"
-        >
-          Categories
-        </Link>
-        <Link
-          to="/about"
-          className="px-4 py-0 mx-2 hover:border-b-2 hover:border-b-green-700 hover:text-green-700 text-lg"
-        >
-          About Us
-        </Link>
-        <Link
-          to="/contact"
-          className="px-4 py-0 mx-2 hover:border-b-2 hover:border-b-green-700 hover:text-green-700 text-lg"
-        >
-          Contact Us
-        </Link>
-        <Link
-          to="/faq"
-          className="px-4 py-0 mx-2 hover:border-b-2 hover:border-b-green-700 hover:text-green-700 text-lg"
-        >
-          Faq
-        </Link>
-        <Link to="/profile" className="mx-4">
-          <img src={Profile} alt="" width="30px" />
-        </Link>
-        <Link to="/cart" className="mx-4">
-          <img src={CartIcon} alt="" width="30px" />
-        </Link>
+    <div className="w-full py-6 text-[#0D0E43]">
+      <div className="custom-container m-auto flex justify-between items-center">
+        <div className="flex items-center justify-start gap-16">
+          <div>
+            <Link to="/" className="text-4xl font-josefin font-bold">
+              Hekto
+            </Link>
+          </div>
+          <div className="flex font-lato">
+            <Link
+              to="/category"
+              className="px-4 py-0 mx-2 text-lg hover:text-[#FB2E86] transition duration-300 ease-in-out"
+            >
+              Categories
+            </Link>
+            <Link
+              to="/shop"
+              className="px-4 py-0 mx-2 text-lg hover:text-[#FB2E86] transition duration-300 ease-in-out"
+            >
+              Shop
+            </Link>
+
+            <Link
+              to="/about"
+              className="px-4 py-0 mx-2 text-lg hover:text-[#FB2E86] transition duration-300 ease-in-out"
+            >
+              About
+            </Link>
+            <Link
+              to="/contact"
+              className="px-4 py-0 mx-2 text-lg hover:text-[#FB2E86] transition duration-300 ease-in-out"
+            >
+              Contact
+            </Link>
+
+            <Link
+              to="/faq"
+              className="px-4 py-0 mx-2 text-lg hover:text-[#FB2E86] transition duration-300 ease-in-out"
+            >
+              Blog
+            </Link>
+          </div>
+        </div>
+
+        <form action="" className="flex">
+          <input
+            type="text"
+            className="py-1 px-4 border border-[#0D0E43] font-light font-lato"
+            placeholder="Search Products"
+          />
+          <button type="submit" className="bg-[#0D0E43] px-3">
+            <img className="w-5" src={SearchIcon} alt="" />
+          </button>
+        </form>
       </div>
     </div>
   );

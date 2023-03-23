@@ -1,7 +1,9 @@
 const Home = () => {
-    return ( 
-        <h1>Home</h1>
-     );
-}
- 
+  return (
+    <div className="max-w-[1160px] m-auto">
+      <h1 className="text-4xl font-lato">Home</h1>
+    </div>
+  );
+};
+
 export default Home;

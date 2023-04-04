@@ -2,6 +2,8 @@ import Lamp from "../../images/lamp.png";
 import Ellipse from "../../images/ellipse.png";
 import Sofa from "../../images/sofa.png";
 import Chair from "../../images/chair.png";
+import SofaChair from "../../images/sofachair.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -39,7 +41,6 @@ const Home = () => {
       </div>
 
       {/* Featured Products */}
-
       <div className="custom-container m-auto pt-20 pb-14">
         <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
           Featured Products
@@ -332,6 +333,422 @@ const Home = () => {
               </div>
               <p className="text-sm my-1 font-lato">Code - Y523201</p>
               <p className="text-sm my-1 font-lato">$42.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Latest Products */}
+      <div className="custom-container m-auto pt-20 pb-14 ">
+        <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+          Latest Products
+        </h1>
+        <div className="flex justify-center items-center gap-16">
+          <Link className="text-[#151875] hover:text-[#FB4997] hover:border-b hover:border-b-[#FB4997] font-lato text-lg">
+            New Arrival
+          </Link>
+          <Link className="text-[#151875] hover:text-[#FB4997] hover:border-b hover:border-b-[#FB4997] font-lato text-lg">
+            Best Seller
+          </Link>
+          <Link className="text-[#151875] hover:text-[#FB4997] hover:border-b hover:border-b-[#FB4997] font-lato text-lg">
+            Featured
+          </Link>
+          <Link className="text-[#151875] hover:text-[#FB4997] hover:border-b hover:border-b-[#FB4997] font-lato text-lg">
+            Special Offer
+          </Link>
+        </div>
+        <div className="flex justify-center items-center mt-16">
+          <div className="group w-[33.3%] mx-4">
+            <div className=" relative bg-[#F6F7FB] py-8">
+              <img src={SofaChair} className="m-auto" alt="chair" />
+              <div className="absolute hidden group-hover:block bottom-2 left-2">
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center font-lato mt-2">
+              <p className="text-md text-[#151875]">Comfort Handy Craft</p>
+              <div className="flex gap-2 justify-center items-center">
+                <p className="text-[#151875] text-xs">$42.00</p>
+                <p className="text-[#FB2448] text-xs line-through">$65.00</p>
+              </div>
+            </div>
+          </div>
+          <div className="group w-[33.3%] mx-4">
+            <div className=" relative bg-[#F6F7FB] py-8">
+              <img src={SofaChair} className="m-auto" alt="chair" />
+              <div className="absolute hidden group-hover:block bottom-2 left-2">
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center font-lato mt-2">
+              <p className="text-md text-[#151875]">Comfort Handy Craft</p>
+              <div className="flex gap-2 justify-center items-center">
+                <p className="text-[#151875] text-xs">$42.00</p>
+                <p className="text-[#FB2448] text-xs line-through">$65.00</p>
+              </div>
+            </div>
+          </div>
+          <div className="group w-[33.3%] mx-4">
+            <div className=" relative bg-[#F6F7FB] py-8">
+              <img src={SofaChair} className="m-auto" alt="chair" />
+              <div className="absolute hidden group-hover:block bottom-2 left-2">
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center font-lato mt-2">
+              <p className="text-md text-[#151875]">Comfort Handy Craft</p>
+              <div className="flex gap-2 justify-center items-center">
+                <p className="text-[#151875] text-xs">$42.00</p>
+                <p className="text-[#FB2448] text-xs line-through">$65.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center mt-16">
+          <div className="group w-[33.3%] mx-4">
+            <div className=" relative bg-[#F6F7FB] py-8">
+              <img src={SofaChair} className="m-auto" alt="chair" />
+              <div className="absolute hidden group-hover:block bottom-2 left-2 ">
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center font-lato mt-2">
+              <p className="text-md text-[#151875]">Comfort Handy Craft</p>
+              <div className="flex gap-2 justify-center items-center">
+                <p className="text-[#151875] text-xs">$42.00</p>
+                <p className="text-[#FB2448] text-xs line-through">$65.00</p>
+              </div>
+            </div>
+          </div>
+          <div className="group w-[33.3%] mx-4">
+            <div className=" relative bg-[#F6F7FB] py-8">
+              <img src={SofaChair} className="m-auto" alt="chair" />
+              <div className="absolute hidden group-hover:block bottom-2 left-2">
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center font-lato mt-2">
+              <p className="text-md text-[#151875]">Comfort Handy Craft</p>
+              <div className="flex gap-2 justify-center items-center">
+                <p className="text-[#151875] text-xs">$42.00</p>
+                <p className="text-[#FB2448] text-xs line-through">$65.00</p>
+              </div>
+            </div>
+          </div>
+          <div className="group w-[33.3%] mx-4">
+            <div className=" relative bg-[#F6F7FB] py-8">
+              <img src={SofaChair} className="m-auto" alt="chair" />
+              <div className="absolute hidden group-hover:block bottom-2 left-2">
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                </button>
+
+                <button className="p-1.5 rounded-full hover:bg-blue-100 block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#2F1AC4"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center font-lato mt-2">
+              <p className="text-md text-[#151875]">Comfort Handy Craft</p>
+              <div className="flex gap-2 justify-center items-center">
+                <p className="text-[#151875] text-xs">$42.00</p>
+                <p className="text-[#FB2448] text-xs line-through">$65.00</p>
+              </div>
             </div>
           </div>
         </div>

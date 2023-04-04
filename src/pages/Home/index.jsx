@@ -3,6 +3,10 @@ import Ellipse from "../../images/ellipse.png";
 import Sofa from "../../images/sofa.png";
 import Chair from "../../images/chair.png";
 import SofaChair from "../../images/sofachair.png";
+import FreeDelivery from "../../images/freedelivery.png";
+import QaulityBadge from "../../images/qualitybadge.png";
+import Cashback from "../../images/cashback.png";
+import Support from "../../images/support.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -750,6 +754,55 @@ const Home = () => {
                 <p className="text-[#FB2448] text-xs line-through">$65.00</p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* What Hekto Offer! */}
+      <div className="custom-container m-auto pt-20 pb-14">
+        <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+          What Hekto Offer!
+        </h1>
+        <div className="flex justify-center items-center text-center mt-10">
+          <div className="group w-[25%] mx-4 shadow-md py-12 px-4 ">
+            <img src={FreeDelivery} className="m-auto" alt="chair" />
+            <h1 className="my-4 text-2xl font-josefin text-[#151875]">
+              Free Delivery
+            </h1>
+            <p className=" text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
+          </div>
+          <div className="group w-[25%] mx-4 shadow-md py-12 px-4">
+            <img src={QaulityBadge} className="m-auto" alt="chair" />
+            <h1 className="my-4 text-2xl font-josefin text-[#151875]">
+              Premium Quality
+            </h1>
+            <p className=" text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
+          </div>
+          <div className="group w-[25%] mx-4 shadow-md py-12 px-4">
+            <img src={Cashback} className="m-auto" alt="chair" />
+            <h1 className="my-4 text-2xl font-josefin text-[#151875]">
+              Full Cashback
+            </h1>
+            <p className=" text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
+          </div>
+          <div className="group w-[25%] mx-4 shadow-md py-12 px-4">
+            <img src={Support} className="m-auto" alt="chair" />
+            <h1 className="my-4 text-2xl font-josefin text-[#151875]">
+              24/7 Support
+            </h1>
+            <p className=" text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
           </div>
         </div>
       </div>

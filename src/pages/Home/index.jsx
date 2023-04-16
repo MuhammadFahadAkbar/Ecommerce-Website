@@ -7,6 +7,12 @@ import FreeDelivery from "../../images/freedelivery.png";
 import QaulityBadge from "../../images/qualitybadge.png";
 import Cashback from "../../images/cashback.png";
 import Support from "../../images/support.png";
+import FirstBlog from "../../images/blog-1.png";
+import SecondBlog from "../../images/blog-2.png";
+import ThirdBlog from "../../images/blog-3.png";
+import CalendarIcon from "../../images/calendar.png";
+import PenIcon from "../../images/Pen.png";
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -803,6 +809,90 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
               purus gravida.
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Latest Blogs */}
+      <div className="custom-container m-auto pt-20 pb-14">
+        <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+          Latest Blogs
+        </h1>
+        <div className="flex justify-center items-center mt-10">
+          <div className="group w-[33%] mx-4 shadow-md rounded-lg hover:cursor-pointer">
+            <img src={FirstBlog} width="100%" alt="blog-1" />
+            <div className="px-4 pb-8">
+              <div className="flex justify-start gap-8 items-center mt-4">
+                <div className="flex justify-start gap-1 items-center">
+                  <img src={PenIcon} alt="PenIcon" />
+                  <p className="text-[#151875] font-josefin">SaberAli</p>
+                </div>
+                <div className="flex justify-start gap-1 items-center">
+                  <img src={CalendarIcon} alt="CalendarIcon" />
+                  <p className="text-[#151875] font-josefin">21 August,2020</p>
+                </div>
+              </div>
+              <h1 className="font-josefin text-xl font-bold text-[#151875] mt-5 group-hover:text-[#FB2E86]">
+                Top esssential Trends in 2021
+              </h1>
+              <p className="text-[#72718F] font-lato text-lg mt-4">
+                More off this less hello samlande lied much over tightly circa
+                horse taped mightly
+              </p>
+              <p className="text-[#151875] font-lato text-lg mt-4 underline group-hover:text-[#FB2E86]">
+                Read More
+              </p>
+            </div>
+          </div>
+          <div className="group w-[33%] mx-4 shadow-md rounded-lg hover:cursor-pointer">
+            <img src={SecondBlog} width="100%" alt="blog-1" />
+            <div className="px-4 pb-8">
+              <div className="flex justify-start gap-8 items-center mt-4">
+                <div className="flex justify-start gap-1 items-center">
+                  <img src={PenIcon} alt="PenIcon" />
+                  <p className="text-[#151875] font-josefin">SaberAli</p>
+                </div>
+                <div className="flex justify-start gap-1 items-center">
+                  <img src={CalendarIcon} alt="CalendarIcon" />
+                  <p className="text-[#151875] font-josefin">21 August,2020</p>
+                </div>
+              </div>
+              <h1 className="font-josefin text-xl font-bold text-[#151875] mt-5 group-hover:text-[#FB2E86]">
+                Top esssential Trends in 2021
+              </h1>
+              <p className="text-[#72718F] font-lato text-lg mt-4">
+                More off this less hello samlande lied much over tightly circa
+                horse taped mightly
+              </p>
+              <p className="text-[#151875] font-lato text-lg mt-4 underline group-hover:text-[#FB2E86]">
+                Read More
+              </p>
+            </div>
+          </div>
+          <div className="group w-[33%] mx-4 shadow-md rounded-lg hover:cursor-pointer">
+            <img src={ThirdBlog} width="100%" alt="blog-1" />
+            <div className="px-4 pb-8">
+              <div className="flex justify-start gap-8 items-center mt-4">
+                <div className="flex justify-start gap-1 items-center">
+                  <img src={PenIcon} alt="PenIcon" />
+                  <p className="text-[#151875] font-josefin">SaberAli</p>
+                </div>
+                <div className="flex justify-start gap-1 items-center">
+                  <img src={CalendarIcon} alt="CalendarIcon" />
+                  <p className="text-[#151875] font-josefin">21 August,2020</p>
+                </div>
+              </div>
+              <h1 className="font-josefin text-xl font-bold text-[#151875] mt-5 group-hover:text-[#FB2E86]">
+                Top esssential Trends in 2021
+              </h1>
+              <p className="text-[#72718F] font-lato text-lg mt-4">
+                More off this less hello samlande lied much over tightly circa
+                horse taped mightly
+              </p>
+              <p className="text-[#151875] font-lato text-lg mt-4 underline group-hover:text-[#FB2E86]">
+                Read More
+              </p>
+            </div>
           </div>
         </div>
       </div>

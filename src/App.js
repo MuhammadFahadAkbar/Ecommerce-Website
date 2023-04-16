@@ -1,6 +1,7 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Topbar from './components/topbar';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import Home from './pages/Home';
 // import Shop from './pages/Shop';
 // import Category from './pages/Category';
@@ -25,6 +26,7 @@ const App = () => {
     <Route exact path="/profile" Component={Profile} />
     <Route exact path="/cart" Component={Cart} /> */}
     </Routes>
+    <Footer />
     </BrowserRouter>
   );
 }

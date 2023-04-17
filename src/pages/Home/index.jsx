@@ -12,6 +12,7 @@ import SecondBlog from "../../images/blog-2.png";
 import ThirdBlog from "../../images/blog-3.png";
 import CalendarIcon from "../../images/calendar.png";
 import PenIcon from "../../images/Pen.png";
+import NewsletterBg from "../../images/newsletter.png";
 
 import { Link } from "react-router-dom";
 
@@ -896,6 +897,28 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* NewsLetter */}
+      <div
+        className="w-full py-[8rem]"
+        style={{
+          backgroundImage: `url(${NewsletterBg})`,
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "cover",
+        }}
+      >
+        <div className="custom-container m-auto">
+          <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+            Get Latest Update By <br /> Subscribing 0ur Newsletter
+          </h1>
+          <div className="w-[15%] m-auto">
+            <button className="px-12 py-4 bg-[#FB2E86] text-white">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };

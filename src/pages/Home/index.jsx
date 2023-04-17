@@ -13,6 +13,7 @@ import ThirdBlog from "../../images/blog-3.png";
 import CalendarIcon from "../../images/calendar.png";
 import PenIcon from "../../images/Pen.png";
 import NewsletterBg from "../../images/newsletter.png";
+import BrandsImage from "../../images/brands.png";
 
 import { Link } from "react-router-dom";
 
@@ -919,6 +920,15 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Brands */}
+      <div className="custom-container m-auto pt-20 pb-14">
+        <img
+          width="70%"
+          className="m-auto"
+          src={BrandsImage}
+          alt="Brands-Image"
+        />
+      </div>
     </div>
   );
 };

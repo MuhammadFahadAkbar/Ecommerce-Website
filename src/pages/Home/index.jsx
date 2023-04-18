@@ -14,6 +14,7 @@ import CalendarIcon from "../../images/calendar.png";
 import PenIcon from "../../images/Pen.png";
 import NewsletterBg from "../../images/newsletter.png";
 import BrandsImage from "../../images/brands.png";
+import TopChair from "../../images/topchair.png";
 
 import { Link } from "react-router-dom";
 
@@ -767,7 +768,7 @@ const Home = () => {
       </div>
 
       {/* What Hekto Offer! */}
-      <div className="custom-container m-auto pt-20 pb-14">
+      <div className="custom-container m-auto pt-32 pb-14">
         <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
           What Hekto Offer!
         </h1>
@@ -813,6 +814,89 @@ const Home = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* Top Categories */}
+      <div className="custom-container m-auto py-20">
+        <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+          Top Categories
+        </h1>
+        <div className="flex justify-center items-center mt-10">
+          <div className="group w-[25%] mx-4 text-center">
+            <div className="relative rounded-full hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+              <button className="absolute left-[4.7rem] bottom-[2.5rem] font-lato px-4 py-2 bg-[#08D15F] text-white m-auto hidden group-hover:block">
+                View Details
+              </button>
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Mini LCW Chair
+            </h1>
+            <p className="font-josefin mb-1 text-[#151875]">$56.00</p>
+          </div>
+          <div className="group w-[25%] mx-4 text-center">
+            <div className="relative rounded-full hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+              <button className="absolute left-[4.7rem] bottom-[2.5rem] font-lato px-4 py-2 bg-[#08D15F] text-white m-auto hidden group-hover:block">
+                View Details
+              </button>
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Mini LCW Chair
+            </h1>
+            <p className="font-josefin mb-1 text-[#151875]">$56.00</p>
+          </div>
+          <div className="group w-[25%] mx-4 text-center">
+            <div className="relative rounded-full hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+              <button className="absolute left-[4.7rem] bottom-[2.5rem] font-lato px-4 py-2 bg-[#08D15F] text-white m-auto hidden group-hover:block">
+                View Details
+              </button>
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Mini LCW Chair
+            </h1>
+            <p className="font-josefin mb-1 text-[#151875]">$56.00</p>
+          </div>
+          <div className="group w-[25%] mx-4 text-center">
+            <div className="relative rounded-full hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+              <button className="absolute left-[4.7rem] bottom-[2.5rem] font-lato px-4 py-2 bg-[#08D15F] text-white m-auto hidden group-hover:block">
+                View Details
+              </button>
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Mini LCW Chair
+            </h1>
+            <p className="font-josefin mb-1 text-[#151875]">$56.00</p>
+          </div>
+        </div>
+      </div>
+
+      {/* NewsLetter */}
+      <div
+        className="w-full py-[8rem]"
+        style={{
+          backgroundImage: `url(${NewsletterBg})`,
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "cover",
+        }}
+      >
+        <div className="custom-container m-auto">
+          <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+            Get Latest Update By <br /> Subscribing 0ur Newsletter
+          </h1>
+          <div className="w-[15%] m-auto">
+            <button className="px-12 py-4 bg-[#FB2E86] text-white">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Brands */}
+      <div className="custom-container m-auto pt-20 pb-14">
+        <img width="70%" className="m-auto" src={BrandsImage} alt="Brands" />
       </div>
 
       {/* Latest Blogs */}
@@ -897,37 +981,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* NewsLetter */}
-      <div
-        className="w-full py-[8rem]"
-        style={{
-          backgroundImage: `url(${NewsletterBg})`,
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "cover",
-        }}
-      >
-        <div className="custom-container m-auto">
-          <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
-            Get Latest Update By <br /> Subscribing 0ur Newsletter
-          </h1>
-          <div className="w-[15%] m-auto">
-            <button className="px-12 py-4 bg-[#FB2E86] text-white">
-              Shop Now
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Brands */}
-      <div className="custom-container m-auto pt-20 pb-14">
-        <img
-          width="70%"
-          className="m-auto"
-          src={BrandsImage}
-          alt="Brands-Image"
-        />
       </div>
     </div>
   );

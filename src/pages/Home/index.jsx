@@ -17,6 +17,10 @@ import BrandsImage from "../../images/brands.png";
 import TopChair from "../../images/topchair.png";
 import DiscountedChair from "../../images/discountedchair.png";
 import TickIcon from "../../images/Tick.png";
+import UniqueSofa from "../../images/UniqueSofa.png";
+import PinkEllipse from "../../images/pinkellipse.png";
+import BlueEllipse from "../../images/blueellipse.png";
+import GreenEllipse from "../../images/greenellipse.png";
 
 import { Link } from "react-router-dom";
 
@@ -814,6 +818,49 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
               purus gravida.
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Unique Features! */}
+      <div className="w-full bg-[#F1F0FF]">
+        <div className="custom-container m-auto ">
+          <div className="flex justify-center items-center mt-10">
+            <div className="custom-container m-auto flex justify-between items-center pl-10">
+              <div className="pt-14">
+                <img src={UniqueSofa} alt="" />
+              </div>
+              <div style={{ flex: "1 0 50%" }}>
+                <h1 className="font-josefin font-bold text-4xl leading-[55px] mb-4 text-[#151875]">
+                  Unique Features Of leatest & Trending Poducts
+                </h1>
+                <div className="flex gap-2">
+                  <img src={PinkEllipse} className="h-5 pt-3" alt="" />
+                  <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-6">
+                    All frames constructed with hardwood solids and laminates
+                  </p>
+                </div>
+
+                <div className="flex gap-2">
+                  <img src={GreenEllipse} className="h-5 pt-3" alt="" />
+                  <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-6">
+                    Reinforced with double wood dowels, glue, screw - nails
+                    corner blocks and machine nails
+                  </p>
+                </div>
+
+                <div className="flex gap-2">
+                  <img src={BlueEllipse} className="h-5 pt-3" alt="" />
+                  <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-12">
+                    Arms, backs and seats are structurally reinforced
+                  </p>
+                </div>
+
+                <button className="px-12 py-4 bg-[#FB2E86] text-white">
+                  Add To Cart
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

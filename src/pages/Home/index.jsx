@@ -15,6 +15,8 @@ import PenIcon from "../../images/Pen.png";
 import NewsletterBg from "../../images/newsletter.png";
 import BrandsImage from "../../images/brands.png";
 import TopChair from "../../images/topchair.png";
+import DiscountedChair from "../../images/discountedchair.png";
+import TickIcon from "../../images/Tick.png";
 
 import { Link } from "react-router-dom";
 
@@ -812,6 +814,75 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
               purus gravida.
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Discount Item! */}
+      <div className="custom-container m-auto py-20">
+        <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+          Discounted Items
+        </h1>
+        <div className="text-center font-lato flex gap-8 w-[28%] m-auto">
+          <p className="text-[#FB2E86] hover:cursor-pointer">Wood Chair</p>
+          <p className="text-[#151875] hover:text-[#FB2E86] hover:cursor-pointer">
+            Plastic Chair
+          </p>
+          <p className="text-[#151875] hover:text-[#FB2E86] hover:cursor-pointer">
+            Sofa Colletion
+          </p>
+        </div>
+        <div className="flex justify-center items-center mt-10">
+          <div className="custom-container m-auto flex justify-between items-center pl-10">
+            <div style={{ flex: "1 0 50%", paddingTop: "40px" }}>
+              <h1 className="font-josefin font-bold text-4xl leading-[55px] mb-4">
+                20% Discount Of All Products
+              </h1>
+              <p className="font-lato text-[#FB2E86] font-semibold mb-6 text-lg">
+                Eams Sofa Compact
+              </p>
+              <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget{" "}
+                <br /> feugiat habitasse nec, bibendum condimentum.
+              </p>
+              <div className="flex justify-start items-center gap-14 mb-4">
+                <div>
+                  <div className="flex">
+                    <img src={TickIcon} className="h-6 pt-2 pr-2" alt="" />
+                    <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-6">
+                      Material expose like metals
+                    </p>
+                  </div>
+                  <div className="flex">
+                    <img src={TickIcon} className="h-6 pt-2 pr-2" alt="" />
+                    <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-6">
+                      Material expose like metals
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex">
+                    <img src={TickIcon} className="h-6 pt-2 pr-2" alt="" />
+                    <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-6">
+                      Material expose like metals
+                    </p>
+                  </div>
+                  <div className="flex">
+                    <img src={TickIcon} className="h-6 pt-2 pr-2" alt="" />
+                    <p className="text-[#8A8FB9] text-lg font-medium font-lato mb-6">
+                      Material expose like metals
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button className="px-12 py-4 bg-[#FB2E86] text-white">
+                Shop Now
+              </button>
+            </div>
+            <div className="pt-14">
+              <img src={DiscountedChair} alt="" />
+            </div>
           </div>
         </div>
       </div>

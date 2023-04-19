@@ -21,6 +21,8 @@ import UniqueSofa from "../../images/UniqueSofa.png";
 import PinkEllipse from "../../images/pinkellipse.png";
 import BlueEllipse from "../../images/blueellipse.png";
 import GreenEllipse from "../../images/greenellipse.png";
+import Clock from "../../images/clock.png";
+import Table from "../../images/table.png";
 
 import { Link } from "react-router-dom";
 
@@ -774,7 +776,7 @@ const Home = () => {
       </div>
 
       {/* What Hekto Offer! */}
-      <div className="custom-container m-auto pt-32 pb-14">
+      <div className="custom-container m-auto py-20">
         <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
           What Hekto Offer!
         </h1>
@@ -865,7 +867,148 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Discount Item! */}
+      {/* Trending Products */}
+      <div className="custom-container m-auto pt-32 pb-20">
+        <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
+          Trending Products
+        </h1>
+        <div className="flex justify-center items-center mt-10">
+          <div className="group w-[25%] mx-4 text-center p-4 shadow-lg">
+            <div className="relative hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Cantilever chair
+            </h1>
+            <div className="flex gap-4 justify-center">
+              <p className="font-josefin mb-1 text-[#151875]">$26.00</p>
+              <p className="font-josefin mb-1 text-slate-300 line-through">
+                $42.00
+              </p>
+            </div>
+          </div>
+
+          <div className="group w-[25%] mx-4 text-center p-4 shadow-lg">
+            <div className="relative hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Cantilever chair
+            </h1>
+            <div className="flex gap-4 justify-center">
+              <p className="font-josefin mb-1 text-[#151875]">$26.00</p>
+              <p className="font-josefin mb-1 text-slate-300 line-through">
+                $42.00
+              </p>
+            </div>
+          </div>
+
+          <div className="group w-[25%] mx-4 text-center p-4 shadow-lg">
+            <div className="relative hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Cantilever chair
+            </h1>
+            <div className="flex gap-4 justify-center">
+              <p className="font-josefin mb-1 text-[#151875]">$26.00</p>
+              <p className="font-josefin mb-1 text-slate-300 line-through">
+                $42.00
+              </p>
+            </div>
+          </div>
+
+          <div className="group w-[25%] mx-4 text-center p-4 shadow-lg">
+            <div className="relative hover:cursor-pointer text-center py-16 bg-[#F6F7FB] mb-4">
+              <img className="w-[50%] m-auto" src={TopChair} alt="chair" />
+            </div>
+            <h1 className="text-xl font-josefin font-medium mb-1 text-[#151875]">
+              Cantilever chair
+            </h1>
+            <div className="flex gap-4 justify-center">
+              <p className="font-josefin mb-1 text-[#151875]">$26.00</p>
+              <p className="font-josefin mb-1 text-slate-300 line-through">
+                $42.00
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-start items-center mt-10">
+          <div className="group w-[39%] mx-4 p-6 bg-[#FFF6FB]">
+            <h1 className="text-[#151875] font-josefin text-2xl font-semibold">
+              23% off in all products
+            </h1>
+            <h3 className="text-[#FB2E86] font-lato underline text-md">
+              Shop Now
+            </h3>
+            <img className="float-right" src={Clock} alt="" />
+          </div>
+
+          <div className="group w-[39%] mx-4 p-6 bg-[#EEEFFB]">
+            <h1 className="text-[#151875] font-josefin text-2xl font-semibold">
+              23% off in all products
+            </h1>
+            <h3 className="text-[#FB2E86] font-lato underline text-md">
+              Shop Now
+            </h3>
+            <img className="float-right" src={Table} alt="" />
+          </div>
+
+          <div className="group w-[25%] mx-4 text-center">
+            <div className="flex gap-3 items-center">
+              <div className="w-[38%] py-2 px-4 bg-[#F6F7FB]">
+                <img className="w-[100%] m-auto" src={TopChair} alt="chair" />
+              </div>
+              <div>
+                <h1 className="text-md font-josefin font-medium text-[#151875]">
+                  Executive Seat chair
+                </h1>
+                <div className="flex gap-2 justify-start">
+                  <p className=" text-xs font-josefin text-[#151875]">$26.00</p>
+                  <p className=" text-xs font-josefin text-slate-300 line-through">
+                    $42.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-3 mt-3 items-center">
+              <div className="w-[38%] py-2 px-4 bg-[#F6F7FB]">
+                <img className="w-[100%] m-auto" src={TopChair} alt="chair" />
+              </div>
+              <div>
+                <h1 className="text-md font-josefin font-medium text-[#151875]">
+                  Executive Seat chair
+                </h1>
+                <div className="flex gap-2 justify-start">
+                  <p className=" text-xs font-josefin text-[#151875]">$26.00</p>
+                  <p className=" text-xs font-josefin text-slate-300 line-through">
+                    $42.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-3 mt-3 items-center">
+              <div className="w-[38%] py-2 px-4 bg-[#F6F7FB]">
+                <img className="w-[100%] m-auto" src={TopChair} alt="chair" />
+              </div>
+              <div>
+                <h1 className="text-md font-josefin font-medium text-[#151875]">
+                  Executive Seat chair
+                </h1>
+                <div className="flex gap-2 justify-start">
+                  <p className=" text-xs font-josefin text-[#151875]">$26.00</p>
+                  <p className=" text-xs font-josefin text-slate-300 line-through">
+                    $42.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Discounted Items! */}
       <div className="custom-container m-auto py-20">
         <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
           Discounted Items
@@ -935,7 +1078,7 @@ const Home = () => {
       </div>
 
       {/* Top Categories */}
-      <div className="custom-container m-auto py-20">
+      <div className="custom-container m-auto pt-20 pb-32">
         <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
           Top Categories
         </h1>
@@ -1013,12 +1156,12 @@ const Home = () => {
       </div>
 
       {/* Brands */}
-      <div className="custom-container m-auto pt-20 pb-14">
+      <div className="custom-container m-auto pt-20 ">
         <img width="70%" className="m-auto" src={BrandsImage} alt="Brands" />
       </div>
 
       {/* Latest Blogs */}
-      <div className="custom-container m-auto pt-20 pb-14">
+      <div className="custom-container m-auto pt-14 pb-32">
         <h1 className="font-josefin text-[#1A0B5B] text-center font-bold text-[40px] mb-6">
           Latest Blogs
         </h1>
